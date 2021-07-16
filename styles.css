@@ -43,6 +43,7 @@ nav{
     grid-row: 1/2;
     grid-template-columns: repeat(9,1fr);
     grid-template-rows: 100%;
+    align-items: center;
 }
 
 .search__content{
@@ -54,6 +55,7 @@ nav{
     background: #1A1A1A;
     color: #fff;
     grid-column: 1/7;
+    height: 50px;
 }
 
 .content__bar{
@@ -120,6 +122,10 @@ nav{
     display: block;
 }
 
+.card_music:hover .portada{
+    transform: scale(1.05);
+}
+
 .container__status{
     grid-column: 10/12;
     grid-row: 2/4;
@@ -130,4 +136,9 @@ nav{
     bottom: 0;
     width: 100%;
     height: 30px;
+}
+
+.container__general{
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
 }
