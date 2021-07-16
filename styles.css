@@ -20,33 +20,104 @@ h1,h2,h3,h4,h5,h6{
     height: 100vh;
     display: flex;
     flex-direction: column;
+    align-items: center;
     grid-row: 1/4;
 }
 .sidebar__content img,img{
     width: 40px;
     height: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+}
+
+.sidebar__content img:hover,img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
 }
 
 nav{
-    display: flex;
-    justify-content:space-around;
+    display: grid;
+    justify-content:space-between;
     grid-column: 2/12;
     grid-row: 1/2;
+    grid-template-columns: repeat(9,1fr);
+    grid-template-rows: 100%;
 }
 
 .search__content{
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    border-radius: 35px;
+    border: 1px solid #fff;
+    background: #1A1A1A;
+    color: #fff;
+    grid-column: 1/7;
 }
 
 .content__bar{
     display: flex;
     align-items: center;
+    border: 1px solid #fff;
+    grid-column: 8/10;
 }
 
 .container__music{
+    display: grid;
+    grid-template-rows: 0.8fr 1fr;
     grid-column: 2/10;
     grid-row: 2/4;
+}
+
+.container__cards{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.card_music{
+    position: relative;
+    border: 1px solid #fff;
+    width: 200px;
+    z-index: 15;
+    border-radius: 25px;
+    background: #7770FF;
+    color: rgb(255, 255, 255);
+}
+.card_music .portada{
+    z-index: -1;
+    position: absolute;
+    width: 100%;
+    height: 80%;
+}
+.card_music .details{
+    z-index: 20;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.card_music .details h5{
+    width: 85%;
+    margin-top: 15px;
+}
+
+.card_music .details .description{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 70px;
+    background-image: linear-gradient(transparent 0%,#7770FF 90%);
+    border-radius: 25px;
+    margin-bottom: 10px;
+}
+
+.card_music .details .description img{
+    display: block;
 }
 
 .container__status{
