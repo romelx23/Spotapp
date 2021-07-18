@@ -19,13 +19,21 @@
       </div>
       <nav>
         <div class="search__content">
-          <img src="/assets/icons/circle.svg" alt="circle">
-          <h3>Search...</h3>
-          <button>HipHop</button>
-          <button>Pop</button>
-          <button>Rock</button>
-          <img src="/assets/icons/sliders-v.svg" alt="circle">
+          <div class="search__input">
+            <label for="search">
+              <img src="/assets/icons/circle.svg" alt="circle">
+            </label>
+          <input id="search" type="text" placeholder="Search...">
+          </div>
+          <div class="search__buttons">
+          <button class="button__genre">HipHop</button>
+          <button class="button__genre">Pop</button>
+          <button class="button__genre">Rock</button>
+          </div>
+          <div class="search__filters">
+            <img src="/assets/icons/sliders-v.svg" alt="circle">
           <h5>Filters</h5>
+          </div>
         </div>
         <div class="content__bar">
           <div class="content__settings">
@@ -34,12 +42,78 @@
             <img src="/assets/icons/bell.svg" alt="circle">
           </div>
           <div class="content__avatar">
-            <img src="" alt="avatar">
+            <img src="/assets/icons/angle-down.svg" alt="">
+            <img src="https://64.media.tumblr.com/1ca5ac368badaea331737f7856d844a8/tumblr_qdawidrDy61rpwm80o1_250.jpg" alt="avatar">
           </div>
         </div>
       </nav>
       <div class="container__music">
         <div class="container__cards">
+          <div class="card_music">
+            <img class="portada" src="assets/images/music1.png" alt="music">
+            <div class="details">
+              <h5>28 Truks</h5>
+              <div class="description">
+                <img src="assets/icons/play.svg" alt="play">
+                <div class="">
+                  <h4>Realease Radar</h4>
+                <h5>Updates every friday</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card_music card_music1">
+            <img class="portada" src="assets/images/music1.png" alt="music">
+            <div class="details">
+              <h5>28 Truks</h5>
+              <div class="description">
+                <img src="assets/icons/play.svg" alt="play">
+                <div class="">
+                  <h4>Realease Radar</h4>
+                <h5>Updates every friday</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card_music card_music2">
+            <img class="portada" src="assets/images/music1.png" alt="music">
+            <div class="details">
+              <h5>28 Truks</h5>
+              <div class="description">
+                <img src="assets/icons/play.svg" alt="play">
+                <div class="">
+                  <h4>Realease Radar</h4>
+                <h5>Updates every friday</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card_music card_music3">
+            <img class="portada" src="assets/images/music1.png" alt="music">
+            <div class="details">
+              <h5>28 Truks</h5>
+              <div class="description">
+                <img src="assets/icons/play.svg" alt="play">
+                <div class="">
+                  <h4>Realease Radar</h4>
+                <h5>Updates every friday</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card_music">
+            <img class="portada" src="assets/images/music1.png" alt="music">
+            <div class="details">
+              <h5>28 Truks</h5>
+              <div class="description">
+                <img src="assets/icons/play.svg" alt="play">
+                <div class="">
+                  <h4>Realease Radar</h4>
+                <h5>Updates every friday</h5>
+                </div>
+              </div>
+            </div>
+          </div>
           <div class="card_music">
             <img class="portada" src="assets/images/music1.png" alt="music">
             <div class="details">
@@ -96,31 +170,154 @@
         <div class="container__general">
           <div class="content__genres">
             <h4>Genres</h4>
-            <button>Classic</button>
-            <button>Rock</button>
-            <button>Minimal</button>
-            <button>HipHop</button>
-            <button>Electronic</button>
-            <button>Chillout</button>
-            <button>Blues</button>
-            <button>Country</button>
-            <button>Techeo</button>
-            <button>All Genres</button>
+            <button class="button__genre">Classic</button>
+            <button class="button__genre">Rock</button>
+            <button class="button__genre">Minimal</button>
+            <button class="button__genre">HipHop</button>
+            <button class="button__genre">Electronic</button>
+            <button class="button__genre">Chillout</button>
+            <button class="button__genre">Blues</button>
+            <button class="button__genre">Country</button>
+            <button class="button__genre">Techeo</button>
+            <button class="button__genre">All Genres</button>
           </div>
           <div class="content__trainding">
             <h4>Tracks of the week</h4>
-            <div class="card__traiding">
-              <img src="" alt="avatar">
-              <div class="card__traiding__title">
-                <h4>Jan Blounquist</h4>
-                <h5>The Space in Between</h5>
+            <div class="content__traiding__cards">
+              <div class="card__traiding">
+                <div class="card__traiding__title">
+                  <img src="https://64.media.tumblr.com/1c0a550b6a6b075c35bb0f62e6b14047/580b88b831872a09-e8/s250x400/04b15506e7f9c7e11a3aa86f4373c0acb4ddb9c9.png" alt="avatar">
+                  <div class="">
+                    <h4>Jan Blounquist</h4>
+                  <h5>The Space in Between</h5>
+                  </div>
+                </div>
+                <div class="content__actions">
+                  <img src="/assets/icons/headphones.svg" alt="headphones">
+                  <h5>274k</h5>
+                  <div class="actions">
+                    <img src="/assets//icons//heart.svg" alt="heart">
+                    <img src="/assets//icons//play.svg" alt="play">
+                  </div>
+                </div>
               </div>
-              <div class="content__actions">
-                <img src="/assets/icons/headphones.svg" alt="headphones">
-                <h5>274k</h5>
-                <div class="actions">
-                  <img src="/assets//icons//heart.svg" alt="heart">
-                  <img src="/assets//icons//play.svg" alt="play">
+              <div class="card__traiding">
+                <div class="card__traiding__title">
+                  <img src="https://64.media.tumblr.com/1ca5ac368badaea331737f7856d844a8/tumblr_qdawidrDy61rpwm80o1_250.jpg" alt="avatar">
+                  <div class="">
+                    <h4>Jan Blounquist</h4>
+                  <h5>The Space in Between</h5>
+                  </div>
+                </div>
+                <div class="content__actions">
+                  <img src="/assets/icons/headphones.svg" alt="headphones">
+                  <h5>274k</h5>
+                  <div class="actions">
+                    <img src="/assets//icons//heart.svg" alt="heart">
+                    <img src="/assets//icons//play.svg" alt="play">
+                  </div>
+                </div>
+              </div>
+              <div class="card__traiding">
+                <div class="card__traiding__title">
+                  <img src="https://64.media.tumblr.com/3ca7c822ab60692890acff7b67763890/1151f6a523a89433-50/s250x400/25aac05ba8045fa76358629ebe42878d422a5f73.png" alt="avatar">
+                  <div class="">
+                    <h4>Jan Blounquist</h4>
+                  <h5>The Space in Between</h5>
+                  </div>
+                </div>
+                <div class="content__actions">
+                  <img src="/assets/icons/headphones.svg" alt="headphones">
+                  <h5>274k</h5>
+                  <div class="actions">
+                    <img src="/assets//icons//heart.svg" alt="heart">
+                    <img src="/assets//icons//play.svg" alt="play">
+                  </div>
+                </div>
+              </div>
+              <div class="card__traiding">
+                <div class="card__traiding__title">
+                  <img src="https://64.media.tumblr.com/95ce4332167dc7858a27334042ef5913/bbf4bcaa99ed7542-25/s250x400/47a05be52137f7975872426ed0e578d7814248dd.png" alt="avatar">
+                  <div class="">
+                    <h4>Jan Blounquist</h4>
+                  <h5>The Space in Between</h5>
+                  </div>
+                </div>
+                <div class="content__actions">
+                  <img src="/assets/icons/headphones.svg" alt="headphones">
+                  <h5>274k</h5>
+                  <div class="actions">
+                    <img src="/assets//icons//heart.svg" alt="heart">
+                    <img src="/assets//icons//play.svg" alt="play">
+                  </div>
+                </div>
+              </div>
+              <div class="card__traiding">
+                <div class="card__traiding__title">
+                  <img src="https://64.media.tumblr.com/e14bbaea426098e89c71506835210851/4d698e286892963c-ea/s250x400/4242b13bb6cd80ab13a15264039eb9a143e23ba4.png" alt="avatar">
+                  <div class="">
+                    <h4>Jan Blounquist</h4>
+                  <h5>The Space in Between</h5>
+                  </div>
+                </div>
+                <div class="content__actions">
+                  <img src="/assets/icons/headphones.svg" alt="headphones">
+                  <h5>274k</h5>
+                  <div class="actions">
+                    <img src="/assets//icons//heart.svg" alt="heart">
+                    <img src="/assets//icons//play.svg" alt="play">
+                  </div>
+                </div>
+              </div>
+              <div class="card__traiding">
+                <div class="card__traiding__title">
+                  <img src="https://64.media.tumblr.com/e3c4b9434f074d28a5711a0d186dede1/e2c71bebfbe5430b-2e/s250x400/d1cb3f5892aceb59fe9a1af0788866c1fca323ce.png" alt="avatar">
+                  <div class="">
+                    <h4>Jan Blounquist</h4>
+                  <h5>The Space in Between</h5>
+                  </div>
+                </div>
+                <div class="content__actions">
+                  <img src="/assets/icons/headphones.svg" alt="headphones">
+                  <h5>274k</h5>
+                  <div class="actions">
+                    <img src="/assets//icons//heart.svg" alt="heart">
+                    <img src="/assets//icons//play.svg" alt="play">
+                  </div>
+                </div>
+              </div>
+              <div class="card__traiding">
+                <div class="card__traiding__title">
+                  <img src="https://64.media.tumblr.com/e3c4b9434f074d28a5711a0d186dede1/e2c71bebfbe5430b-2e/s250x400/d1cb3f5892aceb59fe9a1af0788866c1fca323ce.png" alt="avatar">
+                  <div class="">
+                    <h4>Jan Blounquist</h4>
+                  <h5>The Space in Between</h5>
+                  </div>
+                </div>
+                <div class="content__actions">
+                  <img src="/assets/icons/headphones.svg" alt="headphones">
+                  <h5>274k</h5>
+                  <div class="actions">
+                    <img src="/assets//icons//heart.svg" alt="heart">
+                    <img src="/assets//icons//play.svg" alt="play">
+                  </div>
+                </div>
+              </div>
+              <div class="card__traiding">
+                <div class="card__traiding__title">
+                  <img src="https://64.media.tumblr.com/e3c4b9434f074d28a5711a0d186dede1/e2c71bebfbe5430b-2e/s250x400/d1cb3f5892aceb59fe9a1af0788866c1fca323ce.png" alt="avatar">
+                  <div class="">
+                    <h4>Jan Blounquist</h4>
+                  <h5>The Space in Between</h5>
+                  </div>
+                </div>
+                <div class="content__actions">
+                  <img src="/assets/icons/headphones.svg" alt="headphones">
+                  <h5>274k</h5>
+                  <div class="actions">
+                    <img src="/assets//icons//heart.svg" alt="heart">
+                    <img src="/assets//icons//play.svg" alt="play">
+                  </div>
                 </div>
               </div>
             </div>
@@ -128,34 +325,88 @@
           <div class="content__artist">
             <h4>Recents Artists</h4>
             <div class="container_artist">
-              <img src="https://cdn.imgbin.com/13/10/13/imgbin-sila-gencoglu-singer-songwriter-turkey-pop-music-woman-SFq4Xxim0pZBpdRkGPRSijrYW.jpg" alt="artist1">
-              <img src="https://p.kindpng.com/picc/s/9-95918_isolated-musician-instrument-man-banjo-artist-transparent-country.png" alt="artist2">
+              <img src="https://i.pinimg.com/originals/61/05/08/6105087bc848a21acd21147c194dcc30.png" alt="artist1">
+              <img src="/assets/images/music1.jpg" alt="artist2">
+              <img src="/assets/images/music2.jpg" alt="artist2">
+              <img src="/assets/images/music3.jpg" alt="artist2">
             </div>
           </div>
         </div>
       </div>
       <div class="container__status">
-        <h4>Friends Activity</h4>
+        <div class="status__title">
+          <h4>Friends Activity</h4>
         <img src="/assets/icons/apps.svg" alt="circle">
+        </div>
+        <div class="content__cards__status">
         <div class="card__activity">
-          <img src="" alt="avatar__status">
-          <h5>Amber Holmes</h5>
+          <div class="content__img">
+            <img src="https://64.media.tumblr.com/3dea2dc43af3da02876219daef6dde25/8336538df62475d4-5a/s250x400/3b53e6f9d53b5bb16790fd32f9c315adfdc8578a.png" alt="avatar__status">
+          </div>
+          <div class="">
+            <h5>Amber Holmes</h5>
           <h6>Dutck kiss -Inner mix</h6>
+          </div>
         </div>
         <div class="card__activity">
-          <img src="" alt="avatar__status">
-          <h5>Amber Holmes</h5>
+          <img src="https://64.media.tumblr.com/97c14ce7752270dead6d540579433198/8f7098db7c3a8ce2-40/s250x400/66b3ae488635a52c39dd8e1d23941b4a536de44e.png" alt="avatar__status">
+          <div class="">
+            <h5>Amber Holmes</h5>
           <h6>Dutck kiss -Inner mix</h6>
+          </div>
         </div>
         <div class="card__activity">
-          <img src="" alt="avatar__status">
-          <h5>Amber Holmes</h5>
+          <img src="https://64.media.tumblr.com/df6b28e403bcb33b32fb77ec617acf83/f7b5b74ae78ae64f-eb/s250x400/e72fe1be86e9d3a6843c2e36c651295187882648.png" alt="avatar__status">
+          <div class="">
+            <h5>Amber Holmes</h5>
           <h6>Dutck kiss -Inner mix</h6>
+          </div>
         </div>
         <div class="card__activity">
-          <img src="" alt="avatar__status">
-          <h5>Amber Holmes</h5>
+          <img src="https://64.media.tumblr.com/608e706cbdcc7ca194e00ec751fc1b2c/68f078f41ab9951b-57/s250x400/64a35d539502479b8954de7f952e7fb8bd6e0441.png" alt="avatar__status">
+          <div class="">
+            <h5>Amber Holmes</h5>
           <h6>Dutck kiss -Inner mix</h6>
+          </div>
+        </div>
+        <div class="card__activity">
+          <img src="https://64.media.tumblr.com/e71c376a26e7fa44028c3e56f0f35a59/57daa2cf121a1f5c-07/s250x400/8446d794110541d2d75c38b5168a6b6f11b079f9.png" alt="avatar__status">
+          <div class="">
+            <h5>Amber Holmes</h5>
+          <h6>Dutck kiss -Inner mix</h6>
+          </div>
+        </div>
+        <div class="card__activity">
+          <img src="https://64.media.tumblr.com/a1088697a7f35aed76882afbbd1fc49d/206ec866698da526-96/s250x400/c87f1c80d54b81db1ce78db221f37bae49d45f6d.png" alt="avatar__status">
+          <div class="">
+            <h5>Amber Holmes</h5>
+          <h6>Dutck kiss -Inner mix</h6>
+          </div>
+        </div>
+        <div class="card__activity">
+          <img src="https://64.media.tumblr.com/65f4067476685579ef3d1cc88a5eac21/9623eb33bf6aeba7-fe/s250x400/84c573248da7a664a257d303f7660ef7d4e82818.png" alt="avatar__status">
+          <div class="">
+            <h5>Amber Holmes</h5>
+          <h6>Dutck kiss -Inner mix</h6>
+          </div>
+        </div>
+        <div class="card__activity">
+          <img src="https://64.media.tumblr.com/65f4067476685579ef3d1cc88a5eac21/9623eb33bf6aeba7-fe/s250x400/84c573248da7a664a257d303f7660ef7d4e82818.png" alt="avatar__status">
+          <div class="">
+            <h5>Amber Holmes</h5>
+          <h6>Dutck kiss -Inner mix</h6>
+          </div>
+        </div>
+        <div class="card__activity">
+          <img src="https://64.media.tumblr.com/65f4067476685579ef3d1cc88a5eac21/9623eb33bf6aeba7-fe/s250x400/84c573248da7a664a257d303f7660ef7d4e82818.png" alt="avatar__status">
+          <div class="">
+            <h5>Amber Holmes</h5>
+          <h6>Dutck kiss -Inner mix</h6>
+          </div>
+        </div>
+      </div>
+        <div class="bottom__status">
+          <button>View All</button>
         </div>
       </div>
       <div class="container__bottombar">
